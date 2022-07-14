@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   padding: 0;
@@ -53,9 +57,10 @@ nav {
 
 .slider {
   background: url("https://i.pinimg.com/originals/89/ae/75/89ae755d63034254aaae93c9cf112cf3.jpg");
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
   min-height: 100vh;
   overflow: hidden;
+  clip-path: polygon(0 1%, 100% 0, 100% 100%, 80% 97%, 25% 97%, 0 100%);
 }
 
 .sliderWrapper {
@@ -198,7 +203,7 @@ nav {
   height: 100vh;
   background-color: whitesmoke;
   position: relative;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(28% 3%, 79% 3%, 100% 0, 100% 99%, 0 100%, 0 0);
 }
 
 .productImg {
