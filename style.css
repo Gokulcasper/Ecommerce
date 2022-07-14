@@ -362,3 +362,53 @@ label {
   background-color: white;
   color: black;
 }
+
+.gallery {
+  padding: 50px;
+  display: flex;
+}
+
+.galleryItem {
+  flex: 1;
+  padding: 50px;
+}
+.galleryTitle {
+  text-align: center;
+  background-size: contain;
+  text-decoration: underline;
+}
+
+.galleryImg {
+  width: 100%;
+}
+
+.newSeason {
+  display: flex;
+}
+
+.nsItem {
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nsImg {
+  height: 800px;
+  width: 100%;
+}
+
+.nsTitle {
+  font-size: 40px;
+}
+
+.nsButton {
+  font-weight: 600;
+  padding: 15px;
+  cursor: pointer;
+}
